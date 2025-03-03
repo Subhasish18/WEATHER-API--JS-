@@ -14,7 +14,7 @@ async function checkWeather(city){
 
     if(response.status == 404){
         document.querySelector('.error').style.display = "block";
-        document.querySelector('.weather-show').style.display = "none";
+        document.querySelector('.weather').style.display = "none";
         return;
     }
     else{
